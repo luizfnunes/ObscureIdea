@@ -1,0 +1,11 @@
+
+@import url("colors.css");
+@import url("gtk-widgets.css");
+
+@import url("widgets/gtk-menu.css");
+@import url("widgets/gtk-toolbar.css");
+@import url("widgets/gtk-button.css");
+@import url("widgets/gtk-entry.css");
+@import url("widgets/gtk-progressbar.css");
+@import url("widgets/gtk-scale.css");
+@import url("widgets/gtk-treeview.css");

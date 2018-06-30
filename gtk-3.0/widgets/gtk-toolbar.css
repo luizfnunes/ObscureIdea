@@ -1,0 +1,5 @@
+toolbar, .toolbar, GtkToolBar{
+    background: @fg-color;
+    border-bottom: 1px solid @darker-line;
+    padding: 5px;
+}

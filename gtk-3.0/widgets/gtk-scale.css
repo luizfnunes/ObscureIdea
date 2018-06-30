@@ -1,0 +1,23 @@
+scale { 
+    min-height: 20px;
+    min-width: 15px;
+}
+scale slider {
+    min-height: 14px;
+    min-width: 14px;
+    background-color: transparent;  
+}  
+scale trough{
+    background-color: @lighter-bg;
+    padding: 1px; 
+    border: 1px solid @darker-line;
+    border-radius: 5px;
+}
+
+scale.horizontal slider,
+scale.vertical slider {  
+    margin: -5px;
+    background-color: @lighter-fg;
+    border: 1px solid @darker-line;
+    border-radius: 20px;
+} 

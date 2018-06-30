@@ -1,0 +1,8 @@
+treeview, .view, GtkTreeView{
+    padding: 5px;
+    background-color: @lighter-bg;
+}
+
+treeview.view:selected{
+    background-color: @selected-bg-color;
+}

@@ -1,0 +1,30 @@
+/* Default color schema */
+
+@define-color base-color #ffffff ;
+@define-color bg-color #262c2f ;
+@define-color fg-color #373e42 ;
+@define-color text-color #959fa6 ;
+@define-color selected-bg-color #202528 ;
+@define-color darker-line #202427;
+@define-color light-line #30363a;
+
+
+/*  Colors derivated - Functions:
+    shade(color, number)
+    lighter(color)
+    darker(color)
+    mix(color, color, number)
+    alpha(color, number)
+*/
+
+@define-color lighter-fg lighter(@fg-color);
+@define-color lighter-bg lighter(@bg-color);
+@define-color bg-back-color shade(@bg-color,0.8);
+
+@define-color text-disabled-color darker(@text-color);
+@define-color bg-disabled-color shade(@bg-color,0.7);
+@define-color button-color @fg-color;
+@define-color button-border lighter(@fg-color);
+@define-color button-selected darker(@fg-color);
+@define-color entry-color lighter(@bg-color);
+@define-color entry-border darker(@bg-color);

@@ -1,0 +1,9 @@
+entry, .entry, GtkEntry{
+    background-color: @button-color;
+    border: 1px solid @button-border;
+    padding: 6px;
+    margin: 1px;
+}
+entry selection, .entry selection{
+    background-color: @selected-bg-color;
+}
